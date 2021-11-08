@@ -1,0 +1,355 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #232323;
+    
+}
+
+header {
+    height: 80px; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    color: rgb(207, 207, 206);
+    
+}
+
+main {
+    display: flex; 
+    justify-content: center;
+}
+
+form {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    background-color: rgb(207, 206, 204);
+    position: relative;
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-evenly; 
+    align-items: center;
+    
+    margin: 30px;
+}
+
+button {
+    background-color: #232323;
+    width: 75px;
+    height: 20px;
+    color: blanchedalmond;
+    border: none;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+input[type='text'] {
+    width: 85%;
+    height: 30px;
+    border: none;
+    border-bottom: 2px solid #232323;
+    color: #232323;
+    background-color: rgb(207, 206, 204);
+}
+
+#ratings-container {
+    width: 80%;
+    border-radius: 5px;
+}
+
+#radio-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+#goal-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+
+.goal-cover {
+    width: 200px; 
+    height: 200px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.goal-card {
+    background-color: rgb(207, 206, 204);
+    width: 200px;
+    margin: 20px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 12px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.goal-title {
+    font-size: 18px;
+    margin: 5px 0;
+    
+}
+
+.goal-rating {
+    font-size: 15px;
+    margin: 5px 0;
+}
+
+.btns-container {
+    width: 100%; 
+    display: flex;
+    justify-content: space-evenly;
+    margin: 5px;
+    border-radius: 2px;
+}
+
+.btns-container > button {
+    width: 20px;
+    border-radius: 10px;
+    
+}
+
+#complimentButton{
+    font-size: x-large;
+    width: auto;
+    height: auto;
+    color: darkgrey;
+    background-color: transparent;
+    transition: .2s ease-in-out;
+    border-left: 3px transparent solid;
+    border-right: 3px transparent solid;
+    text-overflow: nowrap;
+}
+#complimentButton:hover {
+    color: rgb(144, 148, 148);
+	background-color: teal;
+	border-left: teal 3px solid;
+	border-right: teal 3px solid;
+}
+
+
+
+
+.container {
+    width: auto;
+    position: relative;
+    float: center;
+    text-align: center;
+}
+.cta{
+    width: auto;
+    height: auto;
+    border-radius: 50px;
+    border: 10px solid red;
+    background-color: red;
+    color: #fff;
+    transition: width 0.7s;
+}
+.cta:hover {
+    width: 180px;
+    transition: width 0.7s;
+}
+  
+.cta i {
+    opacity: 50;
+    transition: opacity 0.5s
+
+}
+  
+.cta:hover i {
+    opacity: 25;
+    transition: opacity 0.5s
+}
+  
+.cta .button-text {
+    font-size: large;
+    opacity: 0;
+    transition: opacity .5s;
+    position: absolute;
+    width: 100%;
+    left: 0;
+}
+  
+.cta:hover .button-text {
+    opacity: 1;
+    transition: opacity 0.5s
+}
+
+.doNotClickMeButton {
+    width: auto;
+    background-color: rgb(70, 73, 73);
+    border: 1px dotted yellow;
+}
+
+.star {
+    visibility:hidden;
+    font-size:30px;
+    cursor:pointer;
+    justify-content: center;
+    align-items: center;
+}
+.star:before {
+   content: "\2605";
+   position: absolute;
+   visibility:visible;
+}
+.star:checked:before {
+   content: "\2606";
+   position: absolute;
+   
+}
+
+p {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+  }
+  
+  a:hover {
+    color: #222222
+  }
+  
+  /* Dropdown */
+  
+.dropdown {
+    margin-right: 86%;
+    margin-top: .2%;
+    margin-left: .1%;
+    display: inline-block;
+    position: relative;
+    opacity: 70%;
+    
+}
+  
+.dd-button {
+    display: inline-block;
+    border: 1px solid gray;
+    border-radius: 4px;
+    padding: 10px 30px 10px 20px;
+    background-color: #ffffff;
+    cursor: pointer;
+    white-space: nowrap;
+}
+  
+.dd-button:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform: translateY(-50%);
+    width: 0; 
+    height: 0; 
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid black;
+}
+  
+.dd-button:hover {
+    background-color: #eeeeee;
+}
+  
+  
+.dd-input {
+    display: none;
+    
+}
+  
+.dd-menu {
+    position: absolute;
+    top: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 0;
+    margin: 2px 0 0 0;
+    box-shadow: 0 0 6px 0 rgba(0,0,0,0.1);
+    background-color: #ffffff;
+    list-style-type: none;
+    opacity: 85%;
+}
+  
+.dd-input + .dd-menu {
+    display: none;
+} 
+  
+.dd-input:checked + .dd-menu {
+    display: block;
+} 
+  
+.dd-menu li {
+    padding: 10px 20px;
+    cursor: pointer;
+    white-space: nowrap;
+    
+}
+  
+.dd-menu li:hover {
+    background-color: #f6f6f6;
+    opacity: 50%;
+}
+  
+.dd-menu li a {
+    display: block;
+    margin: -10px -20px;
+    padding: 10px 20px;
+}
+  
+.dd-menu li.divider{
+    padding: 0;
+    border-bottom: 1px solid #cccccc;
+}
+
+.quotes {
+    font-size: 4vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: teal;
+    top: 50%;
+    display: center;
+    
+}
+
+
+.impossible{
+  color: #484848;
+  font-size: 5vh;
+  font-weight: bold;
+  font-family: monospace;
+  letter-spacing: 7px;
+  cursor: pointer;
+
+}
+.impossible span{
+  transition: .3s linear
+}
+.impossible:hover span:nth-child(1){
+  margin-right: 5px
+}
+.impossible:hover span:nth-child(1):after{
+  content: "'";
+}
+.impossible:hover span:nth-child(2){
+  margin-left: 30px
+}
+.impossible:hover span{
+  color: #fff;
+  text-shadow: 0 0 10px #fff,
+               0 0 20px #fff, 
+               0 0 40px #fff;
+}

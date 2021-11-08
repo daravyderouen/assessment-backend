@@ -1,0 +1,44 @@
+[
+    {
+      "id": 1,
+      "title": "BE THE BEST MOM",
+      "rating": 5,
+      "imageURL" : "https://images.fineartamerica.com/images/artworkimages/mediumlarge/3/best-mom-ever-design-cute-gift-for-moms-and-wives-art-frikiland.jpg"
+    },
+
+    {
+      "id": 2,
+      "title": "PASS BOOTCAMP",
+      "rating": 5,
+      "imageURL" : "https://www.bootcamps.in/wp-content/uploads/2012/12/devbootcamp_com.jpg"
+    },
+
+    {
+      "id": 3,
+      "title": "RUN A 5K",
+      "rating": 3,
+      "imageURL" : "https://preview.redd.it/u6v88j284kz41.jpg?width=640&crop=smart&auto=webp&s=25099408c762082c69dce56560d98e469a696709"
+    },
+
+    {
+      "id": 4,
+      "title": "GET SOME SLEEP",
+      "rating": 3,
+      "imageURL" : "https://ctl.s6img.com/society6/img/4T8LCQn_NpFx96xQ5vJb6BAeDCU/w_700/posters/top/~artwork,fw_2718,fh_3616,fx_-176,fy_767,iw_3100,ih_1550/s6-original-art-uploads/society6/uploads/misc/72062b942be14101b09fb0b18b89b55c/~~/beauty-sleep1374127-posters.jpg"
+    },
+
+    {
+      "id": 5,
+      "title": "GET HIRED",
+      "rating": 5,
+      "imageURL" : "https://upload.wikimedia.org/wikipedia/commons/a/a9/%D8%AC%D8%AA_%D8%AC%D9%88%D8%A8_-_Get_Job.jpg"
+    },
+
+    {
+      "id": 6,
+      "title": "STAY HEALTHY",
+      "rating": 3,
+      "imageURL" : "https://st2.depositphotos.com/1014014/6538/i/600/depositphotos_65385153-stock-photo-stay-healthy-puzzle-pieces-illustration.jpg"
+    }
+ 
+  ]
